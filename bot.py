@@ -4,7 +4,7 @@ import time
 import requests
 from mojang import MojangAPI
 
-TOKEN = 'MTA4NDA3OTY1Njk0NjM4OTA4Mw.GKU4ck.1hR8BWqpQuai4HKYeGvbavWsE8ooT6-TRFE8_8'
+TOKEN = ''
 
 client = discord.Client()
 
@@ -37,7 +37,7 @@ async def on_message(message):
         buzy = True
         try:
             await message.reply("Getting stats from " + user_message + ". please wait a second.")
-            api_key = "159cf244-1452-4439-8219-fc480c3a8ab0"
+            api_key = ""
 
             #userinput = str(input("Enter your minecraft username >>> "))
             
